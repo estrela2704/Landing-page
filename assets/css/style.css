@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header-menu {}
+
+section {
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.divisoria {
+  background-color: #FFF;
+  width: 80%;
+  height: 3px;
+  margin: 0px auto;
+  border-radius: 50px;
+}
+
+p {
+  padding: 10px 20px;
+  font-size: 38px;
+  text-align: center;
+  color: #FFF;
+  line-height: 70px;
+  letter-spacing: 5px;
+  font-family: 'Kanit';
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+.buttao {
+  background-color: #4CFFF6;
+  width: 80%;
+  max-width: 400px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 38px;
+  color: #232877;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.buttao:hover {
+  width: 90%;
+  max-width: 450px;
+  height: 90px;
+  transition: 0.5s;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.promo {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}
+
+.promo img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+
+.planos {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.planos img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* padding: 30px 0px; */
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 300px;
+  height: 420px;
+  border: 8px solid #FFF;
+  border-radius: 40px;
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.pplanos {
+  font-size: 35px;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Kanit';
+  padding-top: 30px;
+}
+
+.lista{
+  color: #FFF;
+}
+
+.divisoria2{
+  background-color: #FFF;
+  width: 80%;
+  height: 3px;
+  border-radius: 50px;
+}
+
+.imagens{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.imagens img{
+  width: 100%; /* Certifique-se de que a div tem uma largura definida */
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .buttao {
+    font-size: 28px;
+  }
+
+  .promo img {
+    max-width: 350px;
+  }
+
+  .planos img {
+    max-width: 300px;
+  }
+
+  .card-item {
+    margin: 10px;
+    max-width: 250px;
+    height: 550px;
+  }
+
+  .pplanos {
+    font-size: 28px;
+  }
+
+  .buttao {
+    background-color: #4CFFF6;
+    width: 50%;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #232877;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .buttao:hover {
+    width: 50%;
+    max-width: 400px;
+    height: 40px;
+    transition: 0.5s;
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  
+
+}
+
+section:nth-of-type(1){
+  background-image: url("../img/background.png");
+}
+
+section:nth-of-type(2){
+  background-image: url("../img/background.png");
+}
+
+section:nth-of-type(3){
+  background-image: url("../img/background.png");
+}
